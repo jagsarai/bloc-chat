@@ -1,9 +1,9 @@
 (function(){
 	function config($locationProvider, $stateProvider){
 		$locationProvider
-			.html5mode({
+			.html5Mode({
 				enabled: true,
-				requireBase: flase
+				requireBase: false
 		});
 		
 		$stateProvider
