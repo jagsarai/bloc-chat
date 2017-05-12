@@ -1,0 +1,17 @@
+<div class="modal-sm">
+	<div class="modal-header">
+		<h3 class="modal-title" id="modal-title">Add a new chat room</h3>
+	</div>
+	<br>
+	<p>Name of Room</p>
+	<input type="text" name="room" ng-model="modal.room.$value">
+	<div class="modal-body">
+		<div class="entry-box">
+		</div>
+	</div>
+	<br>
+	<div class="modal-footer">
+		<button class="btn btn-success" type="button" ng-click="modal.submit()">Create Room</button>
+		<button class="btn btn-warning" type="button" ng-click="modal.cancel()">Cancel</button>
+	</div>
+</div>

@@ -1,0 +1,14 @@
+<section class="side-bar" ng-controller="ModalCtrl as modal">
+	<h1>Bloc Chat</h1>
+	<button ng-click="modal.open()" class="btn btn-primary">Add New Room</button>
+	<div class="wrapper">
+		<br>
+		<div class="room-list" ng-repeat="room in room.rooms">
+			<a class="room-id" href="">
+				{{room.$value}}
+			</a>
+		</div>
+	</div>
+</section>
+
+
