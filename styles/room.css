@@ -1,3 +1,24 @@
+
+.side-bar{
+	width: 30%;
+	height: 100%;
+	margin: 0;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	background-color: rgba(178, 222, 237, 0.8);	
+}
+
+.main-content{
+	float: right;
+	width: 65%;
+	padding-top: 1rem;
+}
+
+.room-list:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+
 h1, 
 .room-list{
 	font-family: 'Ubuntu', sans-serif;
@@ -5,6 +26,30 @@ h1,
 .room-id{
 	text-decoration: none;
 	color: black;
+	font-size: 2rem;
+	padding: 10px;
 }
+
+.message-container{
+	
+}
+
+.message-content{
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+.message-sentAt{
+	text-align: right;
+	padding-right: 50px;
+	font-size: 16px;
+}
+
+.message-username{
+	font-size: 30px;
+	font: bold;
+	text-align: left;
+}
+
 
 

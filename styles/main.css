@@ -15,8 +15,8 @@ html, body{
 	padding-left: 2rem;
 	padding-top: 1rem;
 	background-color: rgba(178, 222, 237, 0.8);
+	display: inline-block;
 }
-
 
 @media(max-width: 640px){
 	.side-bar{
