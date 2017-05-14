@@ -10,12 +10,12 @@
 				windowClass: 'app-modal-window'
 			})
 			.result.then(function(user){
-				console.log(user);
+				$cookies.currentUser = user;
 			});
 		}
 	}
 	
 	angular
 		.module('blocChat')
-		.run(['$cookies', '$uibModal', BlocChatCookies]);
+		.run([ '$cookies', '$uibModal', BlocChatCookies]);
 })();

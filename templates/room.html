@@ -17,11 +17,17 @@
 	<div class="message-container" ng-repeat="message in showMessages">
 		<div class="message-username">{{message.username}}
 			<div class="message-content">{{message.content}}</div>
-			<div class="message-sentAt">{{message.sentAt}}</div>
+			<div class="message-sentAt">{{message.sentAt | date:'shortTime'}}</div>
 		</div>
 		<hr>
 	</div>
+	<div id="new-message-field">
+		<input id="new-message-input" type="text" name="message" ng-model="message.content" placeholder="write a message" required>
+		<button id="new-message-submit" class="btn btn-primary" type="button" ng-click="addMessage(message.content)" ng-show="message.content">Send</button>
+	</div>
 </div>
+
+
 
 
 

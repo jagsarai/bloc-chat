@@ -19,10 +19,13 @@ html, body{
 }
 
 @media(max-width: 640px){
-	.side-bar{
-		width: 100%;
+	.side-bar, .message-container{
+		width: 50%;
 		height: 30%;
 		margin: 0;
+	}
+	.message-container{
+		float: right;
 	}
 	html{
 		font-size: 100%;
