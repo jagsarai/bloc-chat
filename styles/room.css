@@ -1,11 +1,12 @@
-
+#room-button{
+	display: block;
+}
 .side-bar{
-	width: 30%;
+	width: 20%;
 	height: 100%;
 	margin: 0;
 	padding-left: 2rem;
-	padding-top: 1rem;
-	background-color: rgba(178, 222, 237, 0.8);	
+	padding-top: 1rem;	
 }
 
 .main-content{
@@ -27,25 +28,25 @@ h1,
 .room-id{
 	text-decoration: none;
 	color: black;
-	font-size: 2rem;
-	padding: 10px;
+	padding-bottom: 10px;
 }
 
 .message-content{
 	font-size: 18px;
 	padding-top: 20px;
+	color: black;
 }
 
 .message-sentAt{
 	text-align: right;
-	padding-right: 50px;
 	font-size: 16px;
+	color: black;
 }
 
 .message-username{
 	font-size: 30px;
-	font: bold;
 	text-align: left;
+	color: teal;
 }
 
 #new-message-input{
@@ -55,6 +56,9 @@ h1,
 #new-message-submit{
 	margin-bottom: 10px;
 	width: 10%;
+	align-content: right;
 }
 
-
+span{
+	float: right;
+}

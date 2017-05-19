@@ -8,9 +8,14 @@
 		
 		$stateProvider
 			.state('room', {
-				url: '/',
+				url: '/room',
 				controller: 'RoomCtrl as room',
 				templateUrl: '/templates/room.html'
+		})
+			.state('landing',{
+				url: '/',
+				controller: 'AuthCtrl as auth',
+				templateUrl: '/templates/landing.html'
 		});
 	}
 	angular

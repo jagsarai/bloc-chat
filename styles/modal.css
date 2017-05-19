@@ -2,6 +2,14 @@
 	text-align: center;
 }
 
-.modal{
-	width: 500px;
+.modal-header{
+	margin: 20px;
+}
+
+.modal-footer{
+	background-color: #eee;
+}
+
+#content{
+	border-radius: 5px;
 }
